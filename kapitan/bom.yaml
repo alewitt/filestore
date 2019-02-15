@@ -1,1 +1,8 @@
-
+apiVersion: "razee.admiral/v1"
+kind: ResourceDownloader
+metadata:
+  name: kapitan-bom
+  namespace: default
+items:
+  - url: https://raw.githubusercontent.com/alewitt/filestore/master/kapitan/cm.yaml
+  - url: https://raw.githubusercontent.com/alewitt/filestore/master/kapitan/deployment.yaml
