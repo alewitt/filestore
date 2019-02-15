@@ -1,4 +1,4 @@
-apiVersion: "razee.admiral/v1"
+apiVersion: "razee.kapitan/v1"
 kind: ResourceDownloader
 metadata:
   name: kapitan-bom
