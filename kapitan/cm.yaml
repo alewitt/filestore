@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kapitan-testing
+  namespace: kapitan
+data:
+  needsthis: "data"
