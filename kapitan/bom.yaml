@@ -3,7 +3,6 @@ kind: ResourceDownloader
 metadata:
   name: kapitan-bom
   namespace: kapitan
-  resourceVersion: ""
 spec:
   resources:
   - url: https://raw.githubusercontent.com/alewitt/filestore/master/kapitan/cm.yaml
